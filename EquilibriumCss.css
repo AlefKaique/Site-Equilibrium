@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+#caixa{
+background-color: hsl(216, 50%, 16%);
+width: 300px;
+height: 515px;
+position: absolute;
+border-radius: 8px;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%)
+}
+
+#imagem{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    
+}
+
+#dentro{
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+#letra{
+    color: #fff;
+}
+
+#letra2{
+    margin-top: 2px;
+    color:hsl(215, 51%, 70%);
+}
+
+#letra3{
+    display: flex;
+    gap: 5px;
+}
+
+img,p{
+    display: inline-block;
+}
+
+#img3{
+   margin-left: 40px;
+}
+
+#cor-ciano{
+   color: hsl(178, 100%, 50%);
+}
+
+#cor-cinza{
+    color: hsl(215, 51%, 70%);
+}
+
+#texto-final{
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+#img4{
+    margin-top: 10px;
+width: 35px;
+height: 35px;
+}
+
+#flex{
+    
+    gap: 10px;
+    display: flex;
+}
+
+#txt-final{
+    color: #fff;
+    margin-top: 20px;
+}
+
+#linha{
+    border-color: hsl(215, 51%, 70%);
+    margin-right: 29px;
+    width: 90%;
+}
